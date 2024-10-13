@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Оновлюємо систему
-sudo apt update && sudo apt upgrade -y
-
 # Підключення загальних функцій та змінних з репозиторію
 source <(curl -s https://raw.githubusercontent.com/R1M-NODES/utils/master/common.sh)
 
@@ -12,9 +9,6 @@ printLogo
 # Встановлення Docker та Docker Compose
 printGreen "Install Docker and Docker Compose"
 bash <(curl -s https://raw.githubusercontent.com/R1M-NODES/utils/master/docker-install.sh)
-
-# Оновлюємо систему
-sudo apt update
 
 # Клонуємо репозиторій Unichain
 git clone https://github.com/Uniswap/unichain-node
