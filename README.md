@@ -1,4 +1,4 @@
-<b> Install Rivalz </b>
+<b> Install Unichain </b>
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/R1M-NODES/unichain/master/install.sh)
