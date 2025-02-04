@@ -24,6 +24,11 @@ Restart
 docker-compose down
 docker-compose up -d
 ```
+Stop
+
+```
+cd unichain-node && docker-compose stop
+```
 
 Delete Node
 
